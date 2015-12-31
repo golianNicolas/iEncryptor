@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A259457F1C35F0AB00365564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A259457E1C35F0AB00365564 /* AppDelegate.swift */; };
+		A25945811C35F0AB00365564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25945801C35F0AB00365564 /* ViewController.swift */; };
+		A25945841C35F0AB00365564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25945821C35F0AB00365564 /* Main.storyboard */; };
+		A25945861C35F0AB00365564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25945851C35F0AB00365564 /* Assets.xcassets */; };
+		A25945891C35F0AB00365564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25945871C35F0AB00365564 /* LaunchScreen.storyboard */; };
+		A25945911C35F0CE00365564 /* EncryptionAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25945901C35F0CE00365564 /* EncryptionAlgorithms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A259457B1C35F0AB00365564 /* iEncryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEncryptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A259457E1C35F0AB00365564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A25945801C35F0AB00365564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25945831C35F0AB00365564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A25945851C35F0AB00365564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A25945881C35F0AB00365564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A259458A1C35F0AB00365564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25945901C35F0CE00365564 /* EncryptionAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionAlgorithms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A25945781C35F0AB00365564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A25945721C35F0AB00365564 = {
+			isa = PBXGroup;
+			children = (
+				A259457D1C35F0AB00365564 /* iEncryptor */,
+				A259457C1C35F0AB00365564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A259457C1C35F0AB00365564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A259457B1C35F0AB00365564 /* iEncryptor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A259457D1C35F0AB00365564 /* iEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				A25945901C35F0CE00365564 /* EncryptionAlgorithms.swift */,
+				A259457E1C35F0AB00365564 /* AppDelegate.swift */,
+				A25945801C35F0AB00365564 /* ViewController.swift */,
+				A25945821C35F0AB00365564 /* Main.storyboard */,
+				A25945851C35F0AB00365564 /* Assets.xcassets */,
+				A25945871C35F0AB00365564 /* LaunchScreen.storyboard */,
+				A259458A1C35F0AB00365564 /* Info.plist */,
+			);
+			path = iEncryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A259457A1C35F0AB00365564 /* iEncryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A259458D1C35F0AB00365564 /* Build configuration list for PBXNativeTarget "iEncryptor" */;
+			buildPhases = (
+				A25945771C35F0AB00365564 /* Sources */,
+				A25945781C35F0AB00365564 /* Frameworks */,
+				A25945791C35F0AB00365564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iEncryptor;
+			productName = iEncryptor;
+			productReference = A259457B1C35F0AB00365564 /* iEncryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25945731C35F0AB00365564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tatch;
+				TargetAttributes = {
+					A259457A1C35F0AB00365564 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HR7NKS4SPA;
+					};
+				};
+			};
+			buildConfigurationList = A25945761C35F0AB00365564 /* Build configuration list for PBXProject "iEncryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A25945721C35F0AB00365564;
+			productRefGroup = A259457C1C35F0AB00365564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A259457A1C35F0AB00365564 /* iEncryptor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A25945791C35F0AB00365564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25945891C35F0AB00365564 /* LaunchScreen.storyboard in Resources */,
+				A25945861C35F0AB00365564 /* Assets.xcassets in Resources */,
+				A25945841C35F0AB00365564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A25945771C35F0AB00365564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25945811C35F0AB00365564 /* ViewController.swift in Sources */,
+				A259457F1C35F0AB00365564 /* AppDelegate.swift in Sources */,
+				A25945911C35F0CE00365564 /* EncryptionAlgorithms.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A25945821C35F0AB00365564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25945831C35F0AB00365564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A25945871C35F0AB00365564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25945881C35F0AB00365564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A259458B1C35F0AB00365564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A259458C1C35F0AB00365564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A259458E1C35F0AB00365564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tatch.iEncryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A259458F1C35F0AB00365564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iEncryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tatch.iEncryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A25945761C35F0AB00365564 /* Build configuration list for PBXProject "iEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A259458B1C35F0AB00365564 /* Debug */,
+				A259458C1C35F0AB00365564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A259458D1C35F0AB00365564 /* Build configuration list for PBXNativeTarget "iEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A259458E1C35F0AB00365564 /* Debug */,
+				A259458F1C35F0AB00365564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A25945731C35F0AB00365564 /* Project object */;
+}
